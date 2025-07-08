@@ -1,4 +1,4 @@
-// main.go
+
 package main
 
 import "github.com/gin-gonic/gin"
@@ -10,5 +10,5 @@ func main() {
         c.String(200, "Hello, World!")
     })
 
-    r.Run() // default listens on :8080
+    r.Run() 
 }
